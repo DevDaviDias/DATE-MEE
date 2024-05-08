@@ -1,0 +1,136 @@
+/*
+Rosa Suave: #FADCD9
+Pêssego: #FED8B1
+Lavanda: #E6E6FA
+Branco: #FFFFFF
+Dourado ou Champagne: #F7E7CE
+Verde Menta: #C7EAE4
+
+*/
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+
+.container {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column; /* Alterado para column */
+    align-items: center; /* Adicionado */
+}
+.star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #da3b63);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+
+
+
+.button {
+    margin: 10px;
+    padding: 15px 90px;
+    font-size: 20px; 
+    border: none;
+    cursor: pointer;
+}
+
+
+.text {
+    margin-bottom: 60px;
+    font-size: x-large;
+}
+
+#moving-button {
+    position: absolute;
+    left: 60%;
+    top: 52%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: #a69c9c;
+    padding: 15px 90px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+#moving-button:hover {
+    background-color: rgb(152, 150, 150);
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.btn-sim {
+    position: absolute;
+    left: 30%;
+    top: 48%;
+    padding: 15px 90px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #c2bcbc;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #a69c9c;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.btn-sim:hover {
+    background-color: rgb(166, 164, 164);
+    color: white;
+    transform: translateZ(100px) scale(1.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin: 5px 0; /* Alterado para margin 5px topo/baixo e 0 nos lados */
+    }
+
+    #moving-button {
+        font-size: 15px;
+        padding: 15px 40px; /* Ajustado */
+        border-radius: 20px;
+    }
+
+    .btn-sim {
+        padding: 15px 40px; /* Ajustado */
+        font-size: 16px;
+        margin: 5px -40px; /* Alterado para margem padrão */
+        border-radius: 20px;
+    }
+}
+
+
