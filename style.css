@@ -116,7 +116,7 @@ body, html {
     .button {
         padding: 10px 30px;
         font-size: 16px;
-        margin: 5px 0; /* Alterado para margin 5px topo/baixo e 0 nos lados */
+        margin: 5px 29px; /* Alterado para margin 5px topo/baixo e 0 nos lados */
     }
 
     #moving-button {
