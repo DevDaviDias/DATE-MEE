@@ -123,6 +123,7 @@ body, html {
         font-size: 15px;
         padding: 15px 40px; /* Ajustado */
         border-radius: 20px;
+        margin: 5px 80px; 
     }
 
     .btn-sim {
@@ -130,6 +131,7 @@ body, html {
         font-size: 16px;
         margin: 5px -40px; /* Alterado para margem padrão */
         border-radius: 20px;
+        
     }
 }
 
